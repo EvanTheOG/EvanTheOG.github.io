@@ -1,0 +1,122 @@
+body {
+    -webkit-font-smoothing: antialiased;
+     background-color: #377be8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+span {
+}
+
+#showcase h1 {
+    color: white;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:100;
+}
+
+#showcase h3 {
+    font-weight:100;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#showcase {
+    color: white;
+    margin-top: 125px;
+    font-weight:100;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+#showcase ul {
+    margin-top: 100px;
+    
+    
+}
+
+#showcase a {
+    color: white;
+    
+}
+
+#showcase a:hover {
+    color: mediumblue;
+}
+
+#showcase li {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.header {
+    color: black;
+    font-size: 2.5em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    font-weight: 100;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+   color: lightblue;
+}
+.nav-back-header {
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+
+
+#back-wrapper {
+   background: url("https://i.imgur.com/ZxmBrpb.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#back {
+    margin-left: 12px;
+    padding-top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
